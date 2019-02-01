@@ -1,0 +1,10 @@
+*.png
+*.tex
+*.pdf
+*.swp
+
+*.pyc
+
+*.log
+.env/*
+ReadList/*
