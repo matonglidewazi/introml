@@ -1,7 +1,8 @@
 *.png
-*.tex
 *.pdf
 *.swp
+*.gz
+*.aux
 
 *.pyc
 
