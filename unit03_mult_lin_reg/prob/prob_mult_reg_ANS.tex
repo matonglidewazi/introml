@@ -1,0 +1,105 @@
+\documentclass[]{article}
+\usepackage{listings}
+\usepackage{amsmath}
+
+
+%opening
+\title{ECE-GY 6143 Machine Learning HW 03}
+\author{Tongda Xu, tx506}
+
+\begin{document}
+
+\maketitle
+\section{Problem 1}
+\subsection{a}
+sales data
+\subsection{b}
+consider $i^{th}$ trial as $\textbf{x}^T = {x_1, x_2, ...., x_n}$, mapping the numerical value and frequency to $[0, 1]$ and feed into $\textbf{x}^T$, and let prediction $y = \textbf{x}^T \beta$
+\subsection{c}
+both mapping to $[0,1]$
+\subsection{d}
+mapping numeric score to $[0,1]$\\
+mapping binary score to $\{0,1\}$\\
+no review neutral to the mean of all other scores $\{x\}$
+\subsection{e}
+proportion of $good$ in all reviews 
+
+\section{Problem 3}
+\subsection{a}
+$\Phi_1(\textbf{x}) = x_1e^{-x_1 - x_2}, \beta_1 = a_1\\
+\Phi_2(\textbf{x}) = x_2e^{-x_1 - x_2}, \beta_2 = a_2\\
+$
+
+\subsection{b}
+
+$
+\Phi_1(\textbf{x}) = u(x-1) , \beta_1 = a_1\\
+\Phi_2(\textbf{x}) = u(x-1)x ,\beta_2 = a_2  \\
+\Phi_3(\textbf{x}) = u(1-x) ,\beta_3 = a_3\\
+\Phi_4(\textbf{x}) = u(1-x)x, \beta_4 = a_4\\
+$
+
+\subsection{c}
+$
+\Phi_1(\textbf{x}) = e^{-x_2}, \beta_1 = e^{a_2}\\
+\Phi_2(\textbf{x}) = x_1e^{-x_2}. \beta_2 = a_1e^{a_2}
+$
+
+\section{Problem 4}
+\subsection{a}
+$\beta.shape = [M+N+1,]$
+\subsection{b}
+\[
+\begin{bmatrix}
+	0 & \dots & 0 & x_{0} & \dots & 0 \\
+	y_{0} & \dots & 0 & x_{1} & \dots & 0 \\
+	\vdots & \ddots & \vdots & \vdots & \ddots & \vdots \\
+	y_{k-1} & \dots & y_{k-M} & x_{k} & \dots & x_{k-N} 
+\end{bmatrix}
+\] 
+
+$A.shape = [T, M+N+1]$
+
+\subsection{c}
+considering the dot product $A^T*A$ can be blocked into four parts, for the product, \textbf{only difference between row and column index would impact result}: 
+
+\[B=
+\begin{bmatrix}
+
+& A^T[:M, :]*A[:, :M] & A^T[:M, :]*A[:, M:] \\
+& A^T[M:, :]*A[:, :M] & A^T[M:, :]*A[:, M:] 
+\end{bmatrix}
+\] \\
+
+$A^T[:M, :]*A[:, :M]: B[i, j] = R_{yy}(|i-j|)$ \\
+$A^T[:M, :]*A[:, M:]: B[i, j] = R_{xy}(i-j)$ \\
+$A^T[M:, :]*A[:, :M]: B[i, j] = R_{xy}(j-i)$ \\
+$A^T[M:, :]*A[:, M:]: B[i, j] = R_{xx}(|i-j|)$\\
+
+For same reason, $C = A^Ty$ could be simplified as: \\
+$C[:M]: C[i,j] = R_{yy}(|i-j|)$\\
+$C[M:]: C[i,j] = R_(xy)((i-j))$
+
+\section{Problem 6}
+\subsection{a}
+\begin{lstlisting}
+x[:,2] *= x[:,1]
+yhat = np.dot(x, beta) 
+\end{lstlisting}
+
+\subsection{b}
+\begin{lstlisting}
+A = np.dot(x.reshape[x.shape[0],1],beta.reshape[1,beta.shape[0]])
+yhat = np.dot(-np.exp(A), alpha)
+\end{lstlisting}
+
+\subsection{c}
+\begin{lstlisting}
+dim = np.ones(x.shape[1])
+Sig_X = np.dot(x**2, dim).reshape(x.shape[0],1)
+Sig_Y = np.dot(y**2, dim).reshape(1,y.shape[0])
+dist = Sig_X + Sig_Y - 2*np.dot(x,y)
+\end{lstlisting}
+
+
+\end{document}
