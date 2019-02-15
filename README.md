@@ -1,3 +1,8 @@
+# This is the fork of Tongda Xu from Dr.sdrangan's Machine Learning classes
+
+* [Homework 03](https://github.com/matonglidewazi/introml/blob/master/unit03_mult_lin_reg/prob/prob_mult_reg_ANS.pdf)
+* [Homework 04](https://github.com/matonglidewazi/introml/blob/master/unit04_model_sel/prob/prob_model_sel_ANS_Tongda_Xu.pdf) 
+
 # Introduction to Machine Learning in Python
 
 This repository provides instructional material for 
