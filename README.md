@@ -3,6 +3,11 @@
 * [Homework 03](https://github.com/matonglidewazi/introml/blob/master/unit03_mult_lin_reg/prob/prob_mult_reg_ANS.pdf)
 * [Homework 04](https://github.com/matonglidewazi/introml/blob/master/unit04_model_sel/prob/prob_model_sel_ANS_Tongda_Xu.pdf) 
 * [Homework 05](https://github.com/matonglidewazi/introml/blob/master/unit05_lasso/prob/ML_HW_week_5.pdf)
+* [Homework 06](https://github.com/matonglidewazi/introml/blob/master/unit06_logistic/ML_HW_week_6.pdf)
+* [Lab 03](https://github.com/matonglidewazi/introml/blob/master/unit03_mult_lin_reg/lab_robot_calib_partial.ipynb)
+* [Lab 04](https://github.com/matonglidewazi/introml/blob/master/unit04_model_sel/lab_neural_partial_Tongda_Xu.ipynb)
+* [Lab 05](https://github.com/matonglidewazi/introml/blob/master/unit05_lasso/lab_eeg_partial.ipynb)
+* [Lab 06](https://github.com/matonglidewazi/introml/blob/master/unit06_logistic/lab_gene_partial_Tongda_Xu.pdf)
 # Introduction to Machine Learning in Python
 
 This repository provides instructional material for 
