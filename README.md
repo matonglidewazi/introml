@@ -10,6 +10,7 @@ Just for reference purpose, no promise of correctness. This repo to serve as a p
 * [Lab 04](https://github.com/matonglidewazi/introml/blob/master/unit04_model_sel/lab_neural_partial_Tongda_Xu.ipynb)
 * [Lab 05](https://github.com/matonglidewazi/introml/blob/master/unit05_lasso/lab_eeg_partial.ipynb)
 * [Lab 06](https://github.com/matonglidewazi/introml/blob/master/unit06_logistic/lab_gene_partial_Tongda_Xu.pdf)
+* [Lab 07](https://github.com/matonglidewazi/introml/blob/master/unit07_optim/lab_nlls_partial.ipynb)
 # Introduction to Machine Learning in Python
 
 This repository provides instructional material for 
