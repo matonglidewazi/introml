@@ -1,6 +1,6 @@
 # This is the fork of Tongda Xu from Dr.sdrangan's Machine Learning classes
 
-Just for reference purpose, no promise of correctness. This repo to serve as a personal convenience purpose for version control and working on my laptops and PCs. It is public only because I could not afford a private repo. If anyone find this material offensive to any regulation, contact me immediately and I will remove them.
+Just for reference purpose, no promise of correctness. This repo to serve as a personal convenience purpose for version control and working across my laptop, PC and Google Cloud VM. It is public only because I could not afford a private repo. If anyone find this material offensive to any regulation, contact me immediately and I will remove them.
 
 * [Homework 03](https://github.com/matonglidewazi/introml/blob/master/unit03_mult_lin_reg/prob/prob_mult_reg_ANS.pdf)
 * [Homework 04](https://github.com/matonglidewazi/introml/blob/master/unit04_model_sel/prob/prob_model_sel_ANS_Tongda_Xu.pdf) 
