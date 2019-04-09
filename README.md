@@ -3,7 +3,7 @@
 * Plagiarism can cause serious consequence in NYU, refer to [honor code](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html)
 * Someone has already been caught for plagiarising this repo, TA and instructor are sensitive to content from this repo
 * This repo is used for Archival purpose and will not be update until a week after the deadline
-* No License provided, unauthorized use of it will be legally accused.
+* No License provided. The content is subjected to the protection of [US Copyright Law](https://www.copyright.gov/title17/) unauthorized use of it would be considered as a copyright infringement and will be legally accused.
 
 # This is the fork of Tongda Xu from Dr.sdrangan's Machine Learning classes
 
