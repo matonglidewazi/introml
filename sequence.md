@@ -28,10 +28,8 @@ to documents that don't match the number of the unit.  We will fix these soon!
 
 * [Setting up python, jupyter and github](./Basics/setup.md)
     * [Set up a local machine](./Basics/setup.md)
-    * [Set up a virtual machine in Google Cloud Platform](./GCP/getting_started.md)
-    * [Set up a virtual machine in Google Cloud Platform with Docker](./GCP/docker.md)
+    * [Set up a CPU or GPU virtual machine in Google Cloud Platform](./GCP/getting_started.md)    
     * [Downloading the course material from github](./Basics/github.md)
-    * [Set up a GPU machine](./GCP/gpu_setup.md)  (Needed for Unit 10)
 * Introduction
     * Course Admin [[pdf]](./lectures/CourseAdmin.pdf) [[Powerpoint]](./lectures/CourseAdmin.pptx)
 * Unit 1:  What is machine learning? 
@@ -111,9 +109,8 @@ to documents that don't match the number of the unit.  We will fix these soon!
 * [Unit 11:  PCA](./pca/readme.md)
     * Lecture:  PCA [[pdf]](./lectures/Lect11_PCA.pdf), Modifed Note [[pdf]](./lectures/Lect11_PCA_modified.pdf)
     [[Powerpoint]](./lectures/Lect11_PCA_modified.pptx)         
-    * [Demo:  PCA eigen-faces-SVM](./unit11_pca/demo1_eigen_face_SVM.ipynb)
-    * [Lab 1:  PCA with NN vs CNN](./unit11_pca/lab_pca_nn_cnn_partial.ipynb)
-    * [Lab 2: Movie recommendations](./unit11_pca/lab_movies_partial.ipynb) (Not required) 
+    * [Demo:  PCA eigen-faces-SVM](./unit11_pca/demo1_eigen_face.ipynb)
+    * [Lab:  PCA with hyper-parameter optimization](./unit11_pca/lab_wine_partial.ipynb)
     * Problems [[pdf]](./unit11_pca/prob/prob_PCA.pdf) [[Latex]](./unit11_pca/prob/prob_PCA.tex)
 * [Unit 12:  Clustering and EM](./unit12_cluster/readme.md)
     * Lecture:  Clustering and EM [[pdf]](./lectures/Lect12_Clustering.pdf)
