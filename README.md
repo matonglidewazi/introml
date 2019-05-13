@@ -20,6 +20,8 @@ Just for reference purpose, no promise of correctness. This repo to serve as a p
 * [Lab 06](https://github.com/matonglidewazi/introml/blob/master/unit06_logistic/lab_gene_partial_Tongda_Xu.pdf)
 * [Lab 07](https://github.com/matonglidewazi/introml/blob/master/unit07_optim/lab_nlls_partial.ipynb)
 * [Lab 08](https://github.com/matonglidewazi/introml/blob/master/unit08_svm/lab_emnist_partial.ipynb)
+* [Lab 09](https://github.com/matonglidewazi/introml/blob/master/unit09_neural/lab_music_partial_pytorch.ipynb)
+* [Lab 10](https://github.com/matonglidewazi/introml/blob/master/unit10_cnn/lab_fine_tune_pytorch.ipynb)
 * [Lab 11](https://github.com/matonglidewazi/introml/blob/master/unit11_pca/lab_wine_Xu.ipynb)
 
 # Introduction to Machine Learning in Python
