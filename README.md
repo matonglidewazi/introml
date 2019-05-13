@@ -1,3 +1,10 @@
+# DO NOT USE FOR PLAGIARISM PURPOSE. YOU WILL BE CAUGHT EASILY.
+
+* Plagiarism can cause serious consequence in NYU, refer to [honor code](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html)
+* Someone has already been caught for plagiarising this repo, TA and instructor are sensitive to content from this repo
+* This repo is used for Archival purpose and will not be update until a week after the deadline
+* No License provided. The content is subjected to the protection of [US Copyright Law](https://www.copyright.gov/title17/) unauthorized use of it would be considered as a copyright infringement and will be legally accused.
+
 # This is the fork of Tongda Xu from Dr.sdrangan's Machine Learning classes
 
 Just for reference purpose, no promise of correctness. This repo to serve as a personal convenience purpose for version control and working across my laptop, PC and Google Cloud VM. It is public only because I could not afford a private repo. If anyone find this material offensive to any regulation, contact me immediately and I will remove them.
